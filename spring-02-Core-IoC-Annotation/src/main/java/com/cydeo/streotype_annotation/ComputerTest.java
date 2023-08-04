@@ -5,6 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class ComputerTest {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext container=new AnnotationConfigApplicationContext(PcConfig.class)
+        AnnotationConfigApplicationContext container=new AnnotationConfigApplicationContext(PcConfig.class);
+
     }
 }
