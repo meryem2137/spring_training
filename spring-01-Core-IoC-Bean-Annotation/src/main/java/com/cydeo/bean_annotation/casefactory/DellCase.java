@@ -1,12 +1,8 @@
-package com.cydeo.streotype_annotation.casefactory;
+package com.cydeo.bean_annotation.casefactory;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class DellCase extends Case{
-
     public DellCase(String model, String manufacturer, String powerSupply) {
-        super("2208", "Dell", "208");
+        super(model, manufacturer, powerSupply);
     }
 
     @Override
